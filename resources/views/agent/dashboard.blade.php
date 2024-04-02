@@ -18,7 +18,7 @@
 							<div class="editProfileForm">
 								<div class="clearDiv row">
 									<div class="col-md-4">
-										<a class="submitebtn btn btn-success" href="https://b2b.travelxpo.in/dashboard?xxun={{$base64Email}}&pwxx={{Auth()->user()->password}}&bbr={{$branchId}}&uc={{ $agentCode . '-' . $username }}" target="_blank"><i class="fa fa-search" aria-hidden="true"> </i> Make Bookings </a>
+										<a class="submitebtn btn btn-success" href="https://admin.travelxpo.in/dashboard?xxun={{$base64Email}}&pwxx={{Auth()->user()->password}}&bbr={{$branchId}}&uc={{ $agentCode . '-' . $username }}" target="_blank"><i class="fa fa-search" aria-hidden="true"> </i> Make Bookings </a>
 									</div>
 								</div>
 								<div class="clearDiv pt-3 row">
