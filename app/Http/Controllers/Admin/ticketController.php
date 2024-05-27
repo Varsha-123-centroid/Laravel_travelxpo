@@ -91,8 +91,8 @@ public function authenticateTicket(Request $request)
             $url = 'http://api.tektravels.com/SharedServices/SharedData.svc/rest/Authenticate';
             $data = [
                 'ClientId' => 'ApiIntegrationNew',
-                'UserName' => 'TRAVELNETIC',
-                'Password' => 'Travel@4321',
+                'UserName' => 'Travelx',
+                'Password' => 'Travelx@1234',
                 'EndUserIp' => $ip_address,
             ];
             $json_payload = json_encode($data);
